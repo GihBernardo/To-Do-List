@@ -1,0 +1,113 @@
+.container {
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 900px;
+    box-shadow: 0 2px 7px 1px black;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    height: 30px;
+    width: 70%;
+    border: 1px groove;
+    border-radius: 10px;
+}
+
+button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.item:hover{
+    transform: scale(1.1);
+}
+
+.card {
+    box-shadow: 0 3px 10px 1px black;
+}
+
+.header {
+    display: flex;
+    padding: 0px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addButton {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px groove;
+    border-radius: 10px;
+    background-color:rgb(194, 223, 248);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.addButton:hover{
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    border: 1px groove;
+    border-radius: 10px;
+    background-color:rgb(131, 159, 184);
+    color: white;
+    transform: scale(1.1);
+}
+
+.modal{
+    width: 100vw;
+    height: 100vw;
+    background-color: rgba(0,0,0,0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
+
+.cardModal{
+    padding: 20px;
+    background-color: white;
+}
+
